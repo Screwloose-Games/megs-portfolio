@@ -1,0 +1,344 @@
+[gd_scene load_steps=109 format=3 uid="uid://db2vfg0yrds3b"]
+
+[ext_resource type="PackedScene" uid="uid://h1yoha1xgnec" path="res://kenney_retro-medieval-kit/Models/FBX format/barrels.fbx" id="1_dac58"]
+[ext_resource type="PackedScene" uid="uid://cg4wuyvofx55a" path="res://kenney_retro-medieval-kit/Models/FBX format/battlement-corner-inner.fbx" id="2_e3pmw"]
+[ext_resource type="PackedScene" uid="uid://bvcugyo6xcpqi" path="res://kenney_retro-medieval-kit/Models/FBX format/battlement-corner-outer.fbx" id="3_ad2xp"]
+[ext_resource type="PackedScene" uid="uid://chqeg2h654nnc" path="res://kenney_retro-medieval-kit/Models/FBX format/battlement-half.fbx" id="4_excpj"]
+[ext_resource type="PackedScene" uid="uid://bfn76tidul4jn" path="res://kenney_retro-medieval-kit/Models/FBX format/battlement.fbx" id="5_sdron"]
+[ext_resource type="PackedScene" uid="uid://dmpotp0k4igmw" path="res://kenney_retro-medieval-kit/Models/FBX format/bricks.fbx" id="6_thfsv"]
+[ext_resource type="PackedScene" uid="uid://c3t27shnhkldm" path="res://kenney_retro-medieval-kit/Models/FBX format/column-damaged.fbx" id="7_2q4hg"]
+[ext_resource type="PackedScene" uid="uid://bu1w6eikpinhs" path="res://kenney_retro-medieval-kit/Models/FBX format/column-paint-damaged.fbx" id="8_dxtfo"]
+[ext_resource type="PackedScene" uid="uid://wj8doouu7skn" path="res://kenney_retro-medieval-kit/Models/FBX format/column-paint.fbx" id="9_4e8b3"]
+[ext_resource type="PackedScene" uid="uid://cs73ayfgp1kq7" path="res://kenney_retro-medieval-kit/Models/FBX format/column-wood.fbx" id="10_rwipd"]
+[ext_resource type="PackedScene" uid="uid://dhxk26681b3qu" path="res://kenney_retro-medieval-kit/Models/FBX format/column.fbx" id="11_q82j1"]
+[ext_resource type="PackedScene" uid="uid://bnl8o8qqpsnbm" path="res://kenney_retro-medieval-kit/Models/FBX format/detail-barrel.fbx" id="12_m8h3j"]
+[ext_resource type="PackedScene" uid="uid://c1lp26mydpol6" path="res://kenney_retro-medieval-kit/Models/FBX format/detail-crate-ropes.fbx" id="13_x51an"]
+[ext_resource type="PackedScene" uid="uid://cnxb6jlnypyw7" path="res://kenney_retro-medieval-kit/Models/FBX format/detail-crate-small.fbx" id="14_20iq8"]
+[ext_resource type="PackedScene" uid="uid://cqrtqhkcr6262" path="res://kenney_retro-medieval-kit/Models/FBX format/detail-crate.fbx" id="15_gncdd"]
+[ext_resource type="PackedScene" uid="uid://s0dqsckwfdvv" path="res://kenney_retro-medieval-kit/Models/FBX format/dock-corner.fbx" id="16_k153q"]
+[ext_resource type="PackedScene" uid="uid://dnmof4qbeone1" path="res://kenney_retro-medieval-kit/Models/FBX format/dock-side.fbx" id="17_cfoa1"]
+[ext_resource type="PackedScene" uid="uid://hitolpxisyhc" path="res://kenney_retro-medieval-kit/Models/FBX format/fence-top.fbx" id="18_xaq45"]
+[ext_resource type="PackedScene" uid="uid://dqmbyqhje1t58" path="res://kenney_retro-medieval-kit/Models/FBX format/fence-wood.fbx" id="19_qboja"]
+[ext_resource type="PackedScene" uid="uid://cmyf0icchyqo6" path="res://kenney_retro-medieval-kit/Models/FBX format/fence.fbx" id="20_mxjj5"]
+[ext_resource type="PackedScene" uid="uid://du7wu4s4vwdw4" path="res://kenney_retro-medieval-kit/Models/FBX format/floor-flat.fbx" id="21_ny3yc"]
+[ext_resource type="PackedScene" uid="uid://d2m2yhq3g50on" path="res://kenney_retro-medieval-kit/Models/FBX format/floor-stairs-corner-inner.fbx" id="22_pmcik"]
+[ext_resource type="PackedScene" uid="uid://dyaac60toaocd" path="res://kenney_retro-medieval-kit/Models/FBX format/floor-stairs-corner-outer.fbx" id="23_a3j02"]
+[ext_resource type="PackedScene" uid="uid://bsqe7s86irw7a" path="res://kenney_retro-medieval-kit/Models/FBX format/floor-stairs.fbx" id="24_t5v0k"]
+[ext_resource type="PackedScene" uid="uid://cunul6eucucus" path="res://kenney_retro-medieval-kit/Models/FBX format/floor-steps-corner-inner.fbx" id="25_tm434"]
+[ext_resource type="PackedScene" uid="uid://5n7dqxm3yrrj" path="res://kenney_retro-medieval-kit/Models/FBX format/floor-steps-corner-outer.fbx" id="26_mljy8"]
+[ext_resource type="PackedScene" uid="uid://d0p5rissqm42u" path="res://kenney_retro-medieval-kit/Models/FBX format/floor-steps.fbx" id="27_hquv6"]
+[ext_resource type="PackedScene" uid="uid://c8375j1st6otp" path="res://kenney_retro-medieval-kit/Models/FBX format/floor.fbx" id="28_0701s"]
+[ext_resource type="PackedScene" uid="uid://dadcweekoo6iy" path="res://kenney_retro-medieval-kit/Models/FBX format/ladder.fbx" id="29_fb8ls"]
+[ext_resource type="PackedScene" uid="uid://d1fxwu0i6i1a1" path="res://kenney_retro-medieval-kit/Models/FBX format/overhang-fence.fbx" id="30_dupwu"]
+[ext_resource type="PackedScene" uid="uid://dwiucfddnlrsj" path="res://kenney_retro-medieval-kit/Models/FBX format/overhang-round-railing.fbx" id="31_vi3ix"]
+[ext_resource type="PackedScene" uid="uid://dfrreefodp1j1" path="res://kenney_retro-medieval-kit/Models/FBX format/overhang-round.fbx" id="32_63hg0"]
+[ext_resource type="PackedScene" uid="uid://du10th8l3yg6o" path="res://kenney_retro-medieval-kit/Models/FBX format/overhang.fbx" id="33_7pglg"]
+[ext_resource type="PackedScene" uid="uid://f6c38pwq7gc4" path="res://kenney_retro-medieval-kit/Models/FBX format/pulley-crate.fbx" id="34_t3mvi"]
+[ext_resource type="PackedScene" uid="uid://b5bf6at0cibuj" path="res://kenney_retro-medieval-kit/Models/FBX format/pulley.fbx" id="35_c8jqk"]
+[ext_resource type="PackedScene" uid="uid://bshgl0xnir20w" path="res://kenney_retro-medieval-kit/Models/FBX format/roof-corner.fbx" id="36_jt3yw"]
+[ext_resource type="PackedScene" uid="uid://bcct4w6tuo51e" path="res://kenney_retro-medieval-kit/Models/FBX format/roof-edge.fbx" id="37_e01wo"]
+[ext_resource type="PackedScene" uid="uid://bcy6x7youurxc" path="res://kenney_retro-medieval-kit/Models/FBX format/roof-high-side-corner-inner.fbx" id="38_gq2i3"]
+[ext_resource type="PackedScene" uid="uid://50gxwo5w3mve" path="res://kenney_retro-medieval-kit/Models/FBX format/roof-high-side-corner.fbx" id="39_hk2mm"]
+[ext_resource type="PackedScene" uid="uid://i51x4610nw4w" path="res://kenney_retro-medieval-kit/Models/FBX format/roof-high-side.fbx" id="40_d4wsm"]
+[ext_resource type="PackedScene" uid="uid://bhfkrcknxa4ca" path="res://kenney_retro-medieval-kit/Models/FBX format/roof-side-corner-inner.fbx" id="41_kckln"]
+[ext_resource type="PackedScene" uid="uid://kwn38tl621e3" path="res://kenney_retro-medieval-kit/Models/FBX format/roof-side-corner.fbx" id="42_flpc4"]
+[ext_resource type="PackedScene" uid="uid://kbh4llf2l0xr" path="res://kenney_retro-medieval-kit/Models/FBX format/roof-side.fbx" id="43_d8xka"]
+[ext_resource type="PackedScene" uid="uid://bk5jeodl6mml" path="res://kenney_retro-medieval-kit/Models/FBX format/roof.fbx" id="44_ehr5b"]
+[ext_resource type="PackedScene" uid="uid://d3h5q2u671cvs" path="res://kenney_retro-medieval-kit/Models/FBX format/stairs-corner.fbx" id="45_s4870"]
+[ext_resource type="PackedScene" uid="uid://00qqhvfuiaw2" path="res://kenney_retro-medieval-kit/Models/FBX format/stairs-stone.fbx" id="46_co6om"]
+[ext_resource type="PackedScene" uid="uid://bc8ugb2hrgmvj" path="res://kenney_retro-medieval-kit/Models/FBX format/stairs-wood.fbx" id="47_pgm0o"]
+[ext_resource type="PackedScene" uid="uid://c8sigkeu4rl8b" path="res://kenney_retro-medieval-kit/Models/FBX format/structure-cross.fbx" id="48_ayyms"]
+[ext_resource type="PackedScene" uid="uid://tw3jffrr1rnq" path="res://kenney_retro-medieval-kit/Models/FBX format/structure-pole.fbx" id="49_jjc5d"]
+[ext_resource type="PackedScene" uid="uid://q4cv0bl64fdo" path="res://kenney_retro-medieval-kit/Models/FBX format/structure-poles.fbx" id="50_5bf2c"]
+[ext_resource type="PackedScene" uid="uid://c5mo3jv45qs3n" path="res://kenney_retro-medieval-kit/Models/FBX format/structure-wall-cross.fbx" id="51_nk07m"]
+[ext_resource type="PackedScene" uid="uid://hbx7wxvxmxv7" path="res://kenney_retro-medieval-kit/Models/FBX format/structure-wall.fbx" id="52_5qoha"]
+[ext_resource type="PackedScene" uid="uid://n8id12gdwgia" path="res://kenney_retro-medieval-kit/Models/FBX format/structure.fbx" id="53_v4ojw"]
+[ext_resource type="PackedScene" uid="uid://8fdj61h8rpxy" path="res://kenney_retro-medieval-kit/Models/FBX format/tower-base.fbx" id="54_8xufi"]
+[ext_resource type="PackedScene" uid="uid://016mnvnnhkk3" path="res://kenney_retro-medieval-kit/Models/FBX format/tower-edge.fbx" id="55_pmpxk"]
+[ext_resource type="PackedScene" uid="uid://dvsewh2h2kec7" path="res://kenney_retro-medieval-kit/Models/FBX format/tower-paint-base.fbx" id="56_xwxf0"]
+[ext_resource type="PackedScene" uid="uid://dkh5r7t5jidfc" path="res://kenney_retro-medieval-kit/Models/FBX format/tower-paint.fbx" id="57_0f404"]
+[ext_resource type="PackedScene" uid="uid://b47ll72y307ho" path="res://kenney_retro-medieval-kit/Models/FBX format/tower-top.fbx" id="58_sj2iq"]
+[ext_resource type="PackedScene" uid="uid://kqfenj7avode" path="res://kenney_retro-medieval-kit/Models/FBX format/tower.fbx" id="59_gcoon"]
+[ext_resource type="PackedScene" uid="uid://d1rn3jivypfav" path="res://kenney_retro-medieval-kit/Models/FBX format/tree-large.fbx" id="60_acjb4"]
+[ext_resource type="PackedScene" uid="uid://bntcqpd14ab42" path="res://kenney_retro-medieval-kit/Models/FBX format/tree-shrub.fbx" id="61_js5s8"]
+[ext_resource type="PackedScene" uid="uid://sxq66fh5m1pg" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-detail.fbx" id="62_yb47n"]
+[ext_resource type="PackedScene" uid="uid://2petdpaabotf" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-door.fbx" id="63_ahb4h"]
+[ext_resource type="PackedScene" uid="uid://dqcachkyitegx" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-flat-gate.fbx" id="64_n6u07"]
+[ext_resource type="PackedScene" uid="uid://d2d5e4oje4x1a" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-door.fbx" id="65_6n80h"]
+[ext_resource type="PackedScene" uid="uid://pbriuvl1fif8" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-gate-half.fbx" id="66_1l78b"]
+[ext_resource type="PackedScene" uid="uid://lnx767loh0kf" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-gate.fbx" id="67_g1j8i"]
+[ext_resource type="PackedScene" uid="uid://b07xcecrvg8wr" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-half.fbx" id="68_ccjg1"]
+[ext_resource type="PackedScene" uid="uid://bpfvxkqf3u6im" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-paint-door.fbx" id="69_wp72e"]
+[ext_resource type="PackedScene" uid="uid://b4aiigwk6vu3v" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-paint-gate.fbx" id="70_e2f3l"]
+[ext_resource type="PackedScene" uid="uid://bg7ol2w66xxvg" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-paint-half.fbx" id="71_dqhym"]
+[ext_resource type="PackedScene" uid="uid://8u6og5j2u08e" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-paint-window.fbx" id="72_vsdyb"]
+[ext_resource type="PackedScene" uid="uid://uau1gmrwrann" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-paint.fbx" id="73_hnpt2"]
+[ext_resource type="PackedScene" uid="uid://dl7cshl8fmsug" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified-window.fbx" id="74_1wdmw"]
+[ext_resource type="PackedScene" uid="uid://c0js05gypthh4" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-fortified.fbx" id="75_7u3xl"]
+[ext_resource type="PackedScene" uid="uid://bu26fm7o62f6r" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-gate-half.fbx" id="76_6s1cf"]
+[ext_resource type="PackedScene" uid="uid://b1ryn3l3cyl2e" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-gate.fbx" id="77_jhebi"]
+[ext_resource type="PackedScene" uid="uid://c8v30v8vbbb2u" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-half.fbx" id="78_xb86x"]
+[ext_resource type="PackedScene" uid="uid://c1ara225yooqe" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-low.fbx" id="79_tme2t"]
+[ext_resource type="PackedScene" uid="uid://ckdm6h62kwivj" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-paint-detail.fbx" id="80_jbdnk"]
+[ext_resource type="PackedScene" uid="uid://cl6i2ijgl03t3" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-paint-door.fbx" id="81_jx3q7"]
+[ext_resource type="PackedScene" uid="uid://d3euc3w0drsy0" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-paint-flat.fbx" id="82_1jvcf"]
+[ext_resource type="PackedScene" uid="uid://pm8vsnaqea56" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-paint-gate.fbx" id="83_23rjw"]
+[ext_resource type="PackedScene" uid="uid://dtdqdta2k15hv" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-paint-half.fbx" id="84_kawkj"]
+[ext_resource type="PackedScene" uid="uid://c3cojg0pm2phm" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-paint-window.fbx" id="85_u6c50"]
+[ext_resource type="PackedScene" uid="uid://di086ctvmjb3j" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-paint.fbx" id="86_e1efi"]
+[ext_resource type="PackedScene" uid="uid://d4gjql4yxs4nf" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-door.fbx" id="87_umjas"]
+[ext_resource type="PackedScene" uid="uid://q33mj1pqlbmf" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-paint-door.fbx" id="88_04kbg"]
+[ext_resource type="PackedScene" uid="uid://di4132f7x8idb" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-paint-window.fbx" id="89_lcqrq"]
+[ext_resource type="PackedScene" uid="uid://cmap7kdqb0v6l" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-paint.fbx" id="90_ivj2p"]
+[ext_resource type="PackedScene" uid="uid://bkmh4tq2eb3e7" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-painted-wood-door.fbx" id="91_ly1jd"]
+[ext_resource type="PackedScene" uid="uid://bsxrwfvj47wky" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-painted-wood-window.fbx" id="92_vf7sp"]
+[ext_resource type="PackedScene" uid="uid://ckq8clds15icq" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-painted-wood.fbx" id="93_j745f"]
+[ext_resource type="PackedScene" uid="uid://ctcuajasyq216" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-window.fbx" id="94_d115a"]
+[ext_resource type="PackedScene" uid="uid://tfpnpl2ovml1" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-wood-door.fbx" id="95_7aols"]
+[ext_resource type="PackedScene" uid="uid://b3xi3u6x7qqv7" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-wood-window.fbx" id="96_u386d"]
+[ext_resource type="PackedScene" uid="uid://b2fvr1xvab4f1" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane-wood.fbx" id="97_gmeaq"]
+[ext_resource type="PackedScene" uid="uid://5w5170xiu1xn" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-pane.fbx" id="98_o4pvh"]
+[ext_resource type="PackedScene" uid="uid://dqjgyyxr5qhd1" path="res://kenney_retro-medieval-kit/Models/FBX format/wall-window.fbx" id="99_ydyej"]
+[ext_resource type="PackedScene" uid="uid://bmow08by82k7k" path="res://kenney_retro-medieval-kit/Models/FBX format/wall.fbx" id="100_oatyv"]
+[ext_resource type="PackedScene" uid="uid://c8v3y2eyy0a73" path="res://kenney_retro-medieval-kit/Models/FBX format/water.fbx" id="101_lueye"]
+[ext_resource type="PackedScene" uid="uid://bfy3sx51lb8qs" path="res://kenney_retro-medieval-kit/Models/FBX format/wood-floor-half.fbx" id="102_ijdnn"]
+[ext_resource type="PackedScene" uid="uid://b0y2vydvy6w66" path="res://kenney_retro-medieval-kit/Models/FBX format/wood-floor-quarter.fbx" id="103_sj8nb"]
+[ext_resource type="PackedScene" uid="uid://c6l5rqwsrprte" path="res://kenney_retro-medieval-kit/Models/FBX format/wood-floor-railing.fbx" id="104_j4jvt"]
+[ext_resource type="PackedScene" uid="uid://dg4d7kqaxjdh0" path="res://kenney_retro-medieval-kit/Models/FBX format/wood-floor.fbx" id="105_osulo"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_e3pmw"]
+points = PackedVector3Array(-0.5, 0, -0.5, -0.5, 0.05, -0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.05, 0.5, 0.5, 0.05, -0.5, 0.5, 0, 0.5, 0.5, 0.05, 0.5)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dac58"]
+points = PackedVector3Array(-0.5, 0, -0.5, -0.5, 0.05, -0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.05, 0.5, 0.5, 0.05, -0.5, 0.5, 0, 0.5, 0.5, 0.05, 0.5)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ad2xp"]
+points = PackedVector3Array(0.5, 0.999804, 0.5, -0.5, 0.000195793, -0.5, -0.5, 0.000195793, 0.5, -0.5, 0.999804, -0.5, 0.5, 0.000195793, -0.5, -0.5, 0.999804, 0.5, 0.5, 0.000195793, 0.5, 0.5, 0.999804, -0.5)
+
+[node name="GridModels" type="Node3D"]
+
+[node name="barrels" parent="." instance=ExtResource("1_dac58")]
+
+[node name="battlement-corner-inner" parent="." instance=ExtResource("2_e3pmw")]
+
+[node name="battlement-corner-outer" parent="." instance=ExtResource("3_ad2xp")]
+
+[node name="battlement-half" parent="." instance=ExtResource("4_excpj")]
+
+[node name="battlement" parent="." instance=ExtResource("5_sdron")]
+
+[node name="bricks" parent="." instance=ExtResource("6_thfsv")]
+
+[node name="column-damaged" parent="." instance=ExtResource("7_2q4hg")]
+
+[node name="column-paint-damaged" parent="." instance=ExtResource("8_dxtfo")]
+
+[node name="column-paint" parent="." instance=ExtResource("9_4e8b3")]
+
+[node name="column-wood" parent="." instance=ExtResource("10_rwipd")]
+
+[node name="column" parent="." instance=ExtResource("11_q82j1")]
+
+[node name="detail-barrel" parent="." instance=ExtResource("12_m8h3j")]
+
+[node name="detail-crate-ropes" parent="." instance=ExtResource("13_x51an")]
+
+[node name="detail-crate-small" parent="." instance=ExtResource("14_20iq8")]
+
+[node name="detail-crate" parent="." instance=ExtResource("15_gncdd")]
+
+[node name="dock-corner" parent="." instance=ExtResource("16_k153q")]
+
+[node name="dock-side" parent="." instance=ExtResource("17_cfoa1")]
+
+[node name="fence-top" parent="." instance=ExtResource("18_xaq45")]
+
+[node name="fence-wood" parent="." instance=ExtResource("19_qboja")]
+
+[node name="fence" parent="." instance=ExtResource("20_mxjj5")]
+
+[node name="floor-flat" parent="." instance=ExtResource("21_ny3yc")]
+
+[node name="floor-stairs-corner-inner" parent="." instance=ExtResource("22_pmcik")]
+
+[node name="floor-stairs-corner-outer" parent="." instance=ExtResource("23_a3j02")]
+
+[node name="floor-stairs" parent="." instance=ExtResource("24_t5v0k")]
+
+[node name="floor-steps-corner-inner" parent="." instance=ExtResource("25_tm434")]
+
+[node name="floor-steps-corner-outer" parent="." instance=ExtResource("26_mljy8")]
+
+[node name="floor-steps" parent="." instance=ExtResource("27_hquv6")]
+
+[node name="floor" parent="." instance=ExtResource("28_0701s")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="floor/floor" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="floor/floor/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_e3pmw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="floor"]
+shape = SubResource("ConvexPolygonShape3D_dac58")
+
+[node name="ladder" parent="." instance=ExtResource("29_fb8ls")]
+
+[node name="overhang-fence" parent="." instance=ExtResource("30_dupwu")]
+
+[node name="overhang-round-railing" parent="." instance=ExtResource("31_vi3ix")]
+
+[node name="overhang-round" parent="." instance=ExtResource("32_63hg0")]
+
+[node name="overhang" parent="." instance=ExtResource("33_7pglg")]
+
+[node name="pulley-crate" parent="." instance=ExtResource("34_t3mvi")]
+
+[node name="pulley" parent="." instance=ExtResource("35_c8jqk")]
+
+[node name="roof-corner" parent="." instance=ExtResource("36_jt3yw")]
+
+[node name="roof-edge" parent="." instance=ExtResource("37_e01wo")]
+
+[node name="roof-high-side-corner-inner" parent="." instance=ExtResource("38_gq2i3")]
+
+[node name="roof-high-side-corner" parent="." instance=ExtResource("39_hk2mm")]
+
+[node name="roof-high-side" parent="." instance=ExtResource("40_d4wsm")]
+
+[node name="roof-side-corner-inner" parent="." instance=ExtResource("41_kckln")]
+
+[node name="roof-side-corner" parent="." instance=ExtResource("42_flpc4")]
+
+[node name="roof-side" parent="." instance=ExtResource("43_d8xka")]
+
+[node name="roof" parent="." instance=ExtResource("44_ehr5b")]
+
+[node name="stairs-corner" parent="." instance=ExtResource("45_s4870")]
+
+[node name="stairs-stone" parent="." instance=ExtResource("46_co6om")]
+
+[node name="stairs-wood" parent="." instance=ExtResource("47_pgm0o")]
+
+[node name="structure-cross" parent="." instance=ExtResource("48_ayyms")]
+
+[node name="structure-pole" parent="." instance=ExtResource("49_jjc5d")]
+
+[node name="structure-poles" parent="." instance=ExtResource("50_5bf2c")]
+
+[node name="structure-wall-cross" parent="." instance=ExtResource("51_nk07m")]
+
+[node name="structure-wall" parent="." instance=ExtResource("52_5qoha")]
+
+[node name="structure" parent="." instance=ExtResource("53_v4ojw")]
+
+[node name="tower-base" parent="." instance=ExtResource("54_8xufi")]
+
+[node name="tower-edge" parent="." instance=ExtResource("55_pmpxk")]
+
+[node name="tower-paint-base" parent="." instance=ExtResource("56_xwxf0")]
+
+[node name="tower-paint" parent="." instance=ExtResource("57_0f404")]
+
+[node name="tower-top" parent="." instance=ExtResource("58_sj2iq")]
+
+[node name="tower" parent="." instance=ExtResource("59_gcoon")]
+
+[node name="tree-large" parent="." instance=ExtResource("60_acjb4")]
+
+[node name="tree-shrub" parent="." instance=ExtResource("61_js5s8")]
+
+[node name="wall-detail" parent="." instance=ExtResource("62_yb47n")]
+
+[node name="wall-door" parent="." instance=ExtResource("63_ahb4h")]
+
+[node name="wall-flat-gate" parent="." instance=ExtResource("64_n6u07")]
+
+[node name="wall-fortified-door" parent="." instance=ExtResource("65_6n80h")]
+
+[node name="wall-fortified-gate-half" parent="." instance=ExtResource("66_1l78b")]
+
+[node name="wall-fortified-gate" parent="." instance=ExtResource("67_g1j8i")]
+
+[node name="wall-fortified-half" parent="." instance=ExtResource("68_ccjg1")]
+
+[node name="wall-fortified-paint-door" parent="." instance=ExtResource("69_wp72e")]
+
+[node name="wall-fortified-paint-gate" parent="." instance=ExtResource("70_e2f3l")]
+
+[node name="wall-fortified-paint-half" parent="." instance=ExtResource("71_dqhym")]
+
+[node name="wall-fortified-paint-window" parent="." instance=ExtResource("72_vsdyb")]
+
+[node name="wall-fortified-paint" parent="." instance=ExtResource("73_hnpt2")]
+
+[node name="wall-fortified-window" parent="." instance=ExtResource("74_1wdmw")]
+
+[node name="wall-fortified" parent="." instance=ExtResource("75_7u3xl")]
+
+[node name="wall-gate-half" parent="." instance=ExtResource("76_6s1cf")]
+
+[node name="wall-gate" parent="." instance=ExtResource("77_jhebi")]
+
+[node name="wall-half" parent="." instance=ExtResource("78_xb86x")]
+
+[node name="wall-low" parent="." instance=ExtResource("79_tme2t")]
+
+[node name="wall-paint-detail" parent="." instance=ExtResource("80_jbdnk")]
+
+[node name="wall-paint-door" parent="." instance=ExtResource("81_jx3q7")]
+
+[node name="wall-paint-flat" parent="." instance=ExtResource("82_1jvcf")]
+
+[node name="wall-paint-gate" parent="." instance=ExtResource("83_23rjw")]
+
+[node name="wall-paint-half" parent="." instance=ExtResource("84_kawkj")]
+
+[node name="wall-paint-window" parent="." instance=ExtResource("85_u6c50")]
+
+[node name="wall-paint" parent="." instance=ExtResource("86_e1efi")]
+
+[node name="wall-pane-door" parent="." instance=ExtResource("87_umjas")]
+
+[node name="wall-pane-paint-door" parent="." instance=ExtResource("88_04kbg")]
+
+[node name="wall-pane-paint-window" parent="." instance=ExtResource("89_lcqrq")]
+
+[node name="wall-pane-paint" parent="." instance=ExtResource("90_ivj2p")]
+
+[node name="wall-pane-painted-wood-door" parent="." instance=ExtResource("91_ly1jd")]
+
+[node name="wall-pane-painted-wood-window" parent="." instance=ExtResource("92_vf7sp")]
+
+[node name="wall-pane-painted-wood" parent="." instance=ExtResource("93_j745f")]
+
+[node name="wall-pane-window" parent="." instance=ExtResource("94_d115a")]
+
+[node name="wall-pane-wood-door" parent="." instance=ExtResource("95_7aols")]
+
+[node name="wall-pane-wood-window" parent="." instance=ExtResource("96_u386d")]
+
+[node name="wall-pane-wood" parent="." instance=ExtResource("97_gmeaq")]
+
+[node name="wall-pane" parent="." instance=ExtResource("98_o4pvh")]
+
+[node name="wall-window" parent="." instance=ExtResource("99_ydyej")]
+
+[node name="wall" parent="." instance=ExtResource("100_oatyv")]
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="wall/wall" index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="wall/wall/StaticBody3D2"]
+shape = SubResource("ConvexPolygonShape3D_ad2xp")
+
+[node name="water" parent="." instance=ExtResource("101_lueye")]
+
+[node name="wood-floor-half" parent="." instance=ExtResource("102_ijdnn")]
+
+[node name="wood-floor-quarter" parent="." instance=ExtResource("103_sj8nb")]
+
+[node name="wood-floor-railing" parent="." instance=ExtResource("104_j4jvt")]
+
+[node name="wood-floor" parent="." instance=ExtResource("105_osulo")]
+
+[editable path="floor"]
+[editable path="wall"]

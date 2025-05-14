@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgwuglxpm6aoe"
+path="res://.godot/imported/floor-steps-corner-outer.obj-8f286b7de6f42dce71080b749e3695cf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor-steps-corner-outer.obj-8f286b7de6f42dce71080b749e3695cf.mesh"]
+
+source_file="res://assets/3d/Barrel Textures/kenney_retro-medieval-kit/Models/OBJ format/floor-steps-corner-outer.obj"
+dest_files=["res://.godot/imported/floor-steps-corner-outer.obj-8f286b7de6f42dce71080b749e3695cf.mesh", "res://.godot/imported/floor-steps-corner-outer.obj-8f286b7de6f42dce71080b749e3695cf.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

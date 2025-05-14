@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://dndsh6a3r7vdv"]
+
+[ext_resource type="PackedScene" uid="uid://clodlr1o1s5bs" path="res://assets/3d/WizardLizard_LP.fbx" id="1_r1mo1"]
+
+[node name="WizardLizard_LP" instance=ExtResource("1_r1mo1")]
