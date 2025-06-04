@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://du3yp2ugivkf1"
+path="res://.godot/imported/detail-barrel.obj-1b499ba2bde4956787f8dfb482b733eb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail-barrel.obj-1b499ba2bde4956787f8dfb482b733eb.mesh"]
+
+source_file="res://sandbox/kenney_retro-medieval-kit/Models/OBJ format/detail-barrel.obj"
+dest_files=["res://.godot/imported/detail-barrel.obj-1b499ba2bde4956787f8dfb482b733eb.mesh", "res://.godot/imported/detail-barrel.obj-1b499ba2bde4956787f8dfb482b733eb.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
