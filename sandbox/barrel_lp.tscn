@@ -1,12 +1,12 @@
 [gd_scene load_steps=10 format=3 uid="uid://byj8kace7a12w"]
 
-[ext_resource type="PackedScene" uid="uid://cqv762rqmtxfu" path="res://assets/3d/barrel_LP.fbx" id="1_f3vti"]
-[ext_resource type="Texture2D" uid="uid://j1u0f4d58dwi" path="res://assets/3d/Barrel Textures/barrel_LP_Wood_Mat_BaseColor.1001.png" id="2_6on5i"]
-[ext_resource type="Texture2D" uid="uid://e2kw0u14r761" path="res://assets/3d/Barrel Textures/barrel_LP_Wood_Mat_Normal.1001.png" id="3_c31ne"]
-[ext_resource type="Texture2D" uid="uid://diadvwbcvav5" path="res://assets/3d/Barrel Textures/barrel_LP_Wood_Mat_OcclusionRoughnessMetallic.1001.png" id="4_awhx3"]
-[ext_resource type="Texture2D" uid="uid://bdlbup3oytmwp" path="res://assets/3d/Barrel Textures/barrel_LP_Metal_Mat_BaseColor.1002.png" id="5_e4agc"]
-[ext_resource type="Texture2D" uid="uid://dkfqelg3yhyi3" path="res://assets/3d/Barrel Textures/barrel_LP_Metal_Mat_Normal.1002.png" id="6_hjp8s"]
-[ext_resource type="Texture2D" uid="uid://df7wrths2w4ll" path="res://assets/3d/Barrel Textures/barrel_LP_Metal_Mat_OcclusionRoughnessMetallic.1002.png" id="7_kprk7"]
+[ext_resource type="PackedScene" uid="uid://cqv762rqmtxfu" path="res://assets/3d/Props/Barrel/barrel_LP.fbx" id="1_f3vti"]
+[ext_resource type="Texture2D" uid="uid://j1u0f4d58dwi" path="res://assets/3d/Props/Barrel/barrel_LP_Wood_Mat_BaseColor.1001.png" id="2_6on5i"]
+[ext_resource type="Texture2D" uid="uid://e2kw0u14r761" path="res://assets/3d/Props/Barrel/barrel_LP_Wood_Mat_Normal.1001.png" id="3_c31ne"]
+[ext_resource type="Texture2D" uid="uid://diadvwbcvav5" path="res://assets/3d/Props/Barrel/barrel_LP_Wood_Mat_OcclusionRoughnessMetallic.1001.png" id="4_awhx3"]
+[ext_resource type="Texture2D" uid="uid://bdlbup3oytmwp" path="res://assets/3d/Props/Barrel/barrel_LP_Metal_Mat_BaseColor.1002.png" id="5_e4agc"]
+[ext_resource type="Texture2D" uid="uid://dkfqelg3yhyi3" path="res://assets/3d/Props/Barrel/barrel_LP_Metal_Mat_Normal.1002.png" id="6_hjp8s"]
+[ext_resource type="Texture2D" uid="uid://df7wrths2w4ll" path="res://assets/3d/Props/Barrel/barrel_LP_Metal_Mat_OcclusionRoughnessMetallic.1002.png" id="7_kprk7"]
 
 [sub_resource type="ORMMaterial3D" id="ORMMaterial3D_mebx6"]
 albedo_texture = ExtResource("2_6on5i")

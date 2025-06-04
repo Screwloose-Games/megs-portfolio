@@ -1,5 +1,5 @@
 [gd_scene load_steps=2 format=3 uid="uid://86slbvwomxvr"]
 
-[ext_resource type="PackedScene" uid="uid://swau8uoftoqg" path="res://assets/3d/Pillar_LP.fbx" id="1_fd0a0"]
+[ext_resource type="PackedScene" uid="uid://swau8uoftoqg" path="res://assets/3d/Wall/Pillar_LP.fbx" id="1_fd0a0"]
 
 [node name="Pillar_LP" instance=ExtResource("1_fd0a0")]
