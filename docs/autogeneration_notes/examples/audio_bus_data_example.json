@@ -1,0 +1,44 @@
+{
+  "buses": [
+	{
+	  "name": "Master",
+	  "volume_db": 0.0,
+	  "solo": false,
+	  "mute": false,
+	  "bypass_fx": false,
+	  "send": null
+	},
+	{
+	  "name": "Special",
+	  "volume_db": 0.0,
+	  "solo": false,
+	  "mute": false,
+	  "bypass_fx": false,
+	  "send": "Master"
+	},
+	{
+	  "name": "Musak",
+	  "volume_db": 0.0,
+	  "solo": false,
+	  "mute": false,
+	  "bypass_fx": false,
+	  "send": "Master"
+	},
+	{
+	  "name": "Ambidoo",
+	  "volume_db": 0.0,
+	  "solo": false,
+	  "mute": false,
+	  "bypass_fx": false,
+	  "send": "Master"
+	},
+	{
+	  "name": "Doogie",
+	  "volume_db": 0.0,
+	  "solo": false,
+	  "mute": false,
+	  "bypass_fx": false,
+	  "send": "Master"
+	}
+  ]
+}

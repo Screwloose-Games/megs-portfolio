@@ -24,3 +24,6 @@ movies/
 .env
 
 .idea/
+
+# Custom local only directory
+local_only/

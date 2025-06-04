@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgm2j1ps0jpae"
+path="res://.godot/imported/wood-floor.obj-a7f268182f67180b3f6f0936780a5609.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wood-floor.obj-a7f268182f67180b3f6f0936780a5609.mesh"]
+
+source_file="res://sandbox/kenney_retro-medieval-kit/Models/OBJ format/wood-floor.obj"
+dest_files=["res://.godot/imported/wood-floor.obj-a7f268182f67180b3f6f0936780a5609.mesh", "res://.godot/imported/wood-floor.obj-a7f268182f67180b3f6f0936780a5609.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
