@@ -60,11 +60,11 @@ jobs:
         run: |
           HOST_OUTPUT_DIR="$(dirname "$GITHUB_OUTPUT")"
 
-          if [ -s gltf_files.txt ]; then
+          if [ -s .github/outputs/added_files.json ]; then
             echo "Processing files from JSON..."
 
             # Parse JSON array into a Bash array
-            mapfile -t files < <(echo '${{ steps.changed-files.outputs.all_changed_files }}' | jq -r '.[]')
+            mapfile -t files < <(jq -r '.[]' .github/outputs/added_files.json)
 
             for f in "${files[@]}"; do
               echo "  $f"
