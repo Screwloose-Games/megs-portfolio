@@ -70,8 +70,13 @@ jobs:
           HOST_OUTPUT_DIR="$(dirname "$GITHUB_OUTPUT")"
 
           if [ -s gltf_files.txt ]; then
-            files=$(tr '\n' ' ' < gltf_files.txt)
-            echo "Processing files: $files"
+            echo "Processing files:"
+            args=()
+            while IFS= read -r file; do
+              echo "  $file"
+              args+=("$file")
+            done < gltf_files.txt
+
             docker run --rm \
               -v "$(pwd):/workspace" \
               -v "${HOST_OUTPUT_DIR}:${HOST_OUTPUT_DIR}" \
@@ -80,7 +85,7 @@ jobs:
               -e GITHUB_REPOSITORY="${GITHUB_REPOSITORY}" \
               -e GITHUB_COMMIT_SHA="${GITHUB_COMMIT_SHA}" \
               ghcr.io/screwloose-games/gltf-validator:latest \
-              "/workspace/gltf-validation-results" $files
+              "/workspace/gltf-validation-results" "${args[@]}"
           else
             echo "No GLTF files to process"
           fi
