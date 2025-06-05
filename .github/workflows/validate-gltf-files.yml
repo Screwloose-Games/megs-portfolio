@@ -11,6 +11,7 @@ on:
 permissions:
   pull-requests: write  # Required to create/update comments
   contents: write # write access to the repository contents
+  packages: read # read access to the GitHub Packages
 
 jobs:
   validate-gltf:
