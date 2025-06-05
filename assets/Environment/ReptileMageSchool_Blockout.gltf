@@ -271,7 +271,7 @@
 			"count": 42,
 			"type": "VEC3",
 			"componentType": 5126,
-			"min": [ -491.685883, -99.8960419, -498.814758 ],
+			"min": [ -491.685883, -20.9458351, -498.814758 ],
 			"max": [ 491.685883, 0.103961252, 488.901611 ]
 		},
 		{
@@ -449,12 +449,76 @@
 			"count": 16,
 			"type": "VEC2",
 			"componentType": 5126
+		},
+		{
+			"bufferView": 70,
+			"count": 132,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 71,
+			"count": 38,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -3.30831409, 0.179934829, -21.4814682 ],
+			"max": [ 396.307831, 40.1799316, 21.4814796 ]
+		},
+		{
+			"bufferView": 72,
+			"count": 38,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 73,
+			"count": 38,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 74,
+			"count": 38,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 75,
+			"count": 132,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 76,
+			"count": 38,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -30.2291622, 1.88731229, -29.7183666 ],
+			"max": [ 30.2291431, 58.1760941, 28.1776352 ]
+		},
+		{
+			"bufferView": 77,
+			"count": 38,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 78,
+			"count": 38,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 79,
+			"count": 38,
+			"type": "VEC2",
+			"componentType": 5126
 		}
 	],
 	"buffers": [
 		{
 			"uri": "ReptileMageSchool_Blockout.bin",
-			"byteLength": 80148
+			"byteLength": 84060
 		}
 	],
 	"bufferViews": [
@@ -876,6 +940,66 @@
 			"byteLength": 128,
 			"byteOffset": 80020,
 			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 132,
+			"byteOffset": 80148,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 456,
+			"byteOffset": 80280,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 456,
+			"byteOffset": 80736,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 608,
+			"byteOffset": 81192,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 304,
+			"byteOffset": 81800,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 132,
+			"byteOffset": 82104,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 456,
+			"byteOffset": 82236,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 456,
+			"byteOffset": 82692,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 608,
+			"byteOffset": 83148,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 304,
+			"byteOffset": 83756,
+			"target": 34962
 		}
 	],
 	"images": [
@@ -965,20 +1089,6 @@
 				{
 					"specularFactor": 0.200000018
 				}
-			}
-		},
-		{
-			"name": "Deco_floor",
-			"pbrMetallicRoughness":
-			{
-				"baseColorFactor": [ 0.445201188, 0.262250662, 0.287440836, 1 ]
-			}
-		},
-		{
-			"name": "Stone",
-			"pbrMetallicRoughness":
-			{
-				"baseColorFactor": [ 0.18447499, 0.18447499, 0.25015828, 1 ]
 			}
 		}
 	],
@@ -1181,31 +1291,34 @@
 			]
 		},
 		{
-			"name": "Floor_LP",
+			"name": "Molding_Wall",
 			"primitives": [
 				{
 					"attributes":
 					{
-						"POSITION": 59,
-						"NORMAL": 60,
-						"TANGENT": 61,
-						"TEXCOORD_0": 62,
-						"TEXCOORD_1": 63
+						"POSITION": 71,
+						"NORMAL": 72,
+						"TANGENT": 73,
+						"TEXCOORD_0": 74
 					},
-					"indices": 58,
-					"material": 6
-				},
+					"indices": 70,
+					"material": 2
+				}
+			]
+		},
+		{
+			"name": "Molding_Corner",
+			"primitives": [
 				{
 					"attributes":
 					{
-						"POSITION": 65,
-						"NORMAL": 66,
-						"TANGENT": 67,
-						"TEXCOORD_0": 68,
-						"TEXCOORD_1": 69
+						"POSITION": 76,
+						"NORMAL": 77,
+						"TANGENT": 78,
+						"TEXCOORD_0": 79
 					},
-					"indices": 64,
-					"material": 7
+					"indices": 75,
+					"material": 2
 				}
 			]
 		}
@@ -1226,48 +1339,48 @@
 		},
 		{
 			"name": "Wall_400x200",
-			"translation": [ -1570, 0, -320 ],
+			"translation": [ -1580, 0, -320 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
 		},
 		{
 			"name": "Wall_400x201",
-			"translation": [ -1170, 0, -320 ],
+			"translation": [ -1180, 0, -320 ],
 			"rotation": [ -0, -0.382683486, 0, 0.923879623 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
 		},
 		{
 			"name": "Wall_400x203",
-			"translation": [ -890, 0, 360 ],
+			"translation": [ -900, 0, 360 ],
 			"rotation": [ -0, -0.923879623, 0, 0.382683486 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
 		},
 		{
 			"name": "Wall_400x204",
-			"translation": [ -1170, 0, 640 ],
+			"translation": [ -1180, 0, 640 ],
 			"rotation": [ -0, -1, 0, 3.04198999e-09 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
 		},
 		{
 			"name": "Wall_400x205",
-			"translation": [ -1570, 0, 640 ],
+			"translation": [ -1580, 0, 640 ],
 			"rotation": [ 0, 0.923879623, -0, 0.382683486 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
 		},
 		{
 			"name": "Wall_400x206",
-			"translation": [ -1850, 0, 360 ],
+			"translation": [ -1860, 0, 360 ],
 			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
 		},
 		{
 			"name": "Wall_400x207",
-			"translation": [ -1850, 0, -40 ],
+			"translation": [ -1860, 0, -40 ],
 			"rotation": [ 0, 0.382683486, -0, 0.923879623 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
@@ -1313,14 +1426,14 @@
 		},
 		{
 			"name": "Wall_400x511",
-			"translation": [ -500.000031, 0, 369.999939 ],
+			"translation": [ -510.000031, 0, 369.999939 ],
 			"rotation": [ 0, 1, -0, 8.72664607e-09 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
 		},
 		{
 			"name": "Wall_400x512",
-			"translation": [ -900, 0, -50.0000763 ],
+			"translation": [ -910, 0, -50.0000763 ],
 			"scale": [ 1, 2.5, 1 ],
 			"mesh": 0
 		},
@@ -1363,12 +1476,12 @@
 		},
 		{
 			"name": "Pillar_LP",
-			"translation": [ 270, 10, 450 ],
+			"translation": [ 240, 10, 470 ],
 			"mesh": 4
 		},
 		{
 			"name": "Pillar_LP2",
-			"translation": [ -120, 0, 450 ],
+			"translation": [ -160, 0, 470 ],
 			"mesh": 4
 		},
 		{
@@ -1397,53 +1510,53 @@
 		},
 		{
 			"name": "Floor_Octo",
-			"translation": [ -1360, 0, 170 ],
+			"translation": [ -1370, 10, 170 ],
 			"mesh": 7
 		},
 		{
 			"name": "StartingEntrance_LP",
-			"translation": [ 2010, 0, 130 ],
+			"translation": [ 2010, 0, 160 ],
 			"rotation": [ -0, -0.707106829, 0, 0.707106829 ],
 			"mesh": 8
 		},
 		{
 			"name": "Pillar_LP3",
-			"translation": [ 670, 10, 450 ],
+			"translation": [ 640, 10, 470 ],
 			"mesh": 4
 		},
 		{
 			"name": "Pillar_LP4",
-			"translation": [ 1070, 10, 440 ],
+			"translation": [ 1040, 10, 470 ],
 			"mesh": 4
 		},
 		{
 			"name": "Pillar_LP5",
-			"translation": [ 1480, 10, 450 ],
+			"translation": [ 1450, 10, 470 ],
 			"mesh": 4
 		},
 		{
 			"name": "Pillar_LP6",
-			"translation": [ 270, 10, -100 ],
+			"translation": [ 240, 10, -120 ],
 			"mesh": 4
 		},
 		{
 			"name": "Pillar_LP7",
-			"translation": [ -120, 0, -100 ],
+			"translation": [ -160, 0, -120 ],
 			"mesh": 4
 		},
 		{
 			"name": "Pillar_LP8",
-			"translation": [ 670, 10, -100 ],
+			"translation": [ 640, 10, -120 ],
 			"mesh": 4
 		},
 		{
 			"name": "Pillar_LP9",
-			"translation": [ 1070, 10, -110 ],
+			"translation": [ 1040, 10, -120 ],
 			"mesh": 4
 		},
 		{
 			"name": "Pillar_LP10",
-			"translation": [ 1480, 10, -100 ],
+			"translation": [ 1450, 10, -120 ],
 			"mesh": 4
 		},
 		{
@@ -1466,13 +1579,13 @@
 		},
 		{
 			"name": "Torch_LP7",
-			"translation": [ 1790, 240, 290 ],
+			"translation": [ 1790, 240, 320 ],
 			"rotation": [ 0, 0.0871557221, -0, 0.99619472 ],
 			"mesh": 3
 		},
 		{
 			"name": "Torch_LP8",
-			"translation": [ 1780, 240, -30 ],
+			"translation": [ 1780, 240, 0 ],
 			"rotation": [ 0, 0.0871557146, -0, 0.99619472 ],
 			"mesh": 3
 		},
@@ -1490,15 +1603,15 @@
 		},
 		{
 			"name": "Floor_LP",
-			"translation": [ 1830, 10, -150 ],
+			"translation": [ 1830, 10, -140 ],
 			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
 			"mesh": 10
 		},
 		{
 			"name": "Floor_LP2",
-			"translation": [ 1430, 10, -150 ],
+			"translation": [ 1430, 10, -140 ],
 			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
-			"mesh": 11
+			"mesh": 10
 		},
 		{
 			"name": "Floor_LP3",
@@ -1559,6 +1672,203 @@
 			"translation": [ 1680, 240, -130.000061 ],
 			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
 			"mesh": 3
+		},
+		{
+			"name": "Molding_Wall",
+			"translation": [ -130, 490, 450 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall2",
+			"translation": [ 270, 490, 450 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall3",
+			"translation": [ 670, 490, 450 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall4",
+			"translation": [ 1070, 490, 450 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall5",
+			"translation": [ 1470, 490, 450 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall6",
+			"translation": [ -150, 490, -140 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall7",
+			"translation": [ 250, 490, -140 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall8",
+			"translation": [ 650, 490, -140 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall9",
+			"translation": [ 1050, 490, -140 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall10",
+			"translation": [ 1450, 490, -140 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall11",
+			"translation": [ 1850, 490, -140 ],
+			"rotation": [ -0, -0.707106829, 0, 0.707106829 ],
+			"scale": [ 0.5, 1, 1 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall12",
+			"translation": [ 1850, 490, 450 ],
+			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall13",
+			"translation": [ -900, 490, 360 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall14",
+			"translation": [ -900, 490, -50 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall15",
+			"translation": [ -890, 490, 350 ],
+			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall16",
+			"translation": [ -530, 490, 360 ],
+			"rotation": [ 0, 0.707106829, -0, 0.707106829 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Wall17",
+			"translation": [ -530, 490, -50 ],
+			"rotation": [ 0, 0.130526185, -0, 0.991444886 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Corner",
+			"translation": [ -530, 490, 360 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner2",
+			"translation": [ -530, 490, -50 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner3",
+			"translation": [ -890, 490, 360 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner4",
+			"translation": [ -890, 490, -50 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner5",
+			"translation": [ -160, 490, 450 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner6",
+			"translation": [ -160, 490, -140 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Wall18",
+			"translation": [ -540, 490, 360 ],
+			"rotation": [ -0, -0.130526185, 0, 0.991444886 ],
+			"mesh": 11
+		},
+		{
+			"name": "Molding_Corner7",
+			"translation": [ 250, 490, 450 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner8",
+			"translation": [ 250, 490, -140 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner9",
+			"translation": [ 640, 490, 450 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner10",
+			"translation": [ 640, 490, -140 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner11",
+			"translation": [ 1040, 490, 450 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner12",
+			"translation": [ 1040, 490, -140 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner13",
+			"translation": [ 1450, 490, 450 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner14",
+			"translation": [ 1450, 490, -140 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner15",
+			"translation": [ 1850, 490, 450 ],
+			"mesh": 12
+		},
+		{
+			"name": "Molding_Corner16",
+			"translation": [ 1850, 490, -140 ],
+			"mesh": 12
+		},
+		{
+			"name": "Pillar_LP11",
+			"translation": [ 1830, 10, 470 ],
+			"mesh": 4
+		},
+		{
+			"name": "Pillar_LP16",
+			"translation": [ 1830, 10, -120 ],
+			"mesh": 4
+		},
+		{
+			"name": "Pillar_LP12",
+			"translation": [ -530, 0, 380 ],
+			"mesh": 4
+		},
+		{
+			"name": "Pillar_LP13",
+			"translation": [ -530, 0, -20 ],
+			"mesh": 4
 		}
 	],
 	"samplers": [
@@ -1570,7 +1880,7 @@
 	"scenes": [
 		{
 			"name": "ReptileMageSchool",
-			"nodes": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57 ]
+			"nodes": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95 ]
 		}
 	],
 	"textures": [
