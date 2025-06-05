@@ -41,7 +41,7 @@ jobs:
       - name: Save changed files list
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
-          echo "${{ steps.changed-files.outputs.all_changed_files }}" | tr ' ' '\n' | grep -E '\.(gltf|glb)$' > gltf_files.txt
+          echo "${{ steps.changed-files.outputs.all_changed_files }}" | xargs -n1 printf "%s\n" | grep -E '\.(gltf|glb)$' > gltf_files.txt
 
       # - name: Build and cache Docker image
       #   uses: docker/build-push-action@v5
