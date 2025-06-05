@@ -43,14 +43,14 @@ jobs:
         run: |
           echo "${{ steps.changed-files.outputs.all_changed_files }}" | tr ' ' '\n' | grep -E '\.(gltf|glb)$' > gltf_files.txt
 
-      - name: Build and cache Docker image
-        uses: docker/build-push-action@v5
-        with:
-          context: ./tools/gltf-validator
-          push: true
-          tags: ghcr.io/screwloose-games/gltf-validator:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+      # - name: Build and cache Docker image
+      #   uses: docker/build-push-action@v5
+      #   with:
+      #     context: ./tools/gltf-validator
+      #     push: true
+      #     tags: ghcr.io/screwloose-games/gltf-validator:latest
+      #     cache-from: type=gha
+      #     cache-to: type=gha,mode=max
 
       - name: Create output directory
         run: mkdir -p gltf-validation-results
