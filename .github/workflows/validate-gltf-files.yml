@@ -34,24 +34,22 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v46
         with:
+          json: true
+          write_output_files: true
           separator: "\n"
           files: |
             **.gltf
             **.glb
-
-      - name: Save changed files list
-        if: steps.changed-files.outputs.any_changed == 'true'
+      - name: Verify the contents of the .github/outputs/added_files.json file
         run: |
-          echo "${{ steps.changed-files.outputs.all_changed_files }}" | grep -E '\.(gltf|glb)$' > gltf_files.txt
+          cat .github/outputs/added_files.json
+          echo "All changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
 
-      # - name: Build and cache Docker image
-      #   uses: docker/build-push-action@v5
-      #   with:
-      #     context: ./tools/gltf-validator
-      #     push: true
-      #     tags: ghcr.io/screwloose-games/gltf-validator:latest
-      #     cache-from: type=gha
-      #     cache-to: type=gha,mode=max
+      # - name: Save changed files list
+      #   if: steps.changed-files.outputs.any_changed == 'true'
+      #   run: |
+      #     echo "${{ steps.changed-files.outputs.all_changed_files }}" | grep -E '\.(gltf|glb)$' > gltf_files.txt
+      #     echo "All changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
 
       - name: Create output directory
         run: mkdir -p gltf-validation-results
@@ -69,13 +67,14 @@ jobs:
         run: |
           HOST_OUTPUT_DIR="$(dirname "$GITHUB_OUTPUT")"
 
-          if [ -s gltf_files.txt ]; then
+
+          if [ -s .github/outputs/added_files.json ]; then
             echo "Processing files:"
             args=()
             while IFS= read -r file; do
               echo "  $file"
               args+=("$file")
-            done < gltf_files.txt
+            done < .github/outputs/added_files.json
 
             docker run --rm \
               -v "$(pwd):/workspace" \
