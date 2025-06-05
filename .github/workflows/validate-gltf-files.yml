@@ -40,9 +40,9 @@ jobs:
           files: |
             **.gltf
             **.glb
-      - name: Verify the contents of the .github/outputs/added_files.json file
+      - name: Verify the contents of the .github/outputs/all_changed_files.json file
         run: |
-          cat .github/outputs/added_files.json
+          cat .github/outputs/all_changed_files.json
           echo "All changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
 
       - name: Create output directory
@@ -61,11 +61,11 @@ jobs:
         run: |
           HOST_OUTPUT_DIR="$(dirname "$GITHUB_OUTPUT")"
 
-          if [ -s .github/outputs/added_files.json ]; then
+          if [ -s .github/outputs/all_changed_files.json ]; then
             echo "Processing files from JSON..."
 
             # Parse JSON array into a Bash array
-            mapfile -t files < <(jq -r '.[]' .github/outputs/added_files.json)
+            mapfile -t files < <(jq -r '.[]' .github/outputs/all_changed_files.json)
 
             for f in "${files[@]}"; do
               echo "  $f"
