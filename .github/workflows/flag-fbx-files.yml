@@ -25,6 +25,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v3
         with:
           issue-number: ${{ github.event.pull_request.number }}
+          comment-id: 'flag-fbx-files-comment'
           body: |
             # :warning: `FBX` files detected in this PR. 
             Please ensure that these files are necessary and consider converting them to `GLTF` format if possible.
