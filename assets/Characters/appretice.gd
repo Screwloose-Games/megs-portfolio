@@ -1,5 +1,4 @@
-class_name Player
-extends CharacterBody3D
+extends Node3D
 
 @export var allow_player_input: bool = true
 @export var cutscene_mode_enabled: bool = false

@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cw57f15lbemat"]
-
-[ext_resource type="PackedScene" uid="uid://bkpfr7sk8jytq" path="res://assets/Characters/Apretice.gltf" id="1_641m0"]
-
-[node name="Apretice" instance=ExtResource("1_641m0")]
