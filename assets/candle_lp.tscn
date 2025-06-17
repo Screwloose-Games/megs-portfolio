@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://db2upylhbjx7o"]
+[gd_scene load_steps=3 format=3 uid="uid://cyyecrkklgurp"]
 
 [ext_resource type="PackedScene" uid="uid://cs8itakjvhsaj" path="res://assets/3d/Candle_LP.fbx" id="1_xch5n"]
 [ext_resource type="Script" uid="uid://cw18gcnj5jrs4" path="res://sandbox/candle_lp.gd" id="2_gc8de"]

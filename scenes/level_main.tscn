@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpcearmfgn4ep"]
+
+[ext_resource type="PackedScene" uid="uid://cvc5f2dr1kctf" path="res://assets/Environment/ReptileMageSchool_Blockout.gltf" id="1_pa81q"]
+[ext_resource type="PackedScene" uid="uid://gpqwwvktfl1i" path="res://player/player.tscn" id="2_me3yj"]
+
+[node name="World" type="Node3D"]
+
+[node name="ReptileMageSchool" parent="." instance=ExtResource("1_pa81q")]
+
+[node name="Player" parent="." instance=ExtResource("2_me3yj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 281.526, 50.7587, 105.427)

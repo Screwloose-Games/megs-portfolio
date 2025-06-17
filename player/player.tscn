@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://gpqwwvktfl1i"]
+
+[ext_resource type="Script" uid="uid://b6ibdg15sjm17" path="res://player/player.gd" id="1_oul6g"]
+[ext_resource type="PackedScene" uid="uid://bb5nao6l5hnst" path="res://assets/Characters/Aprentice.fbx" id="2_rkbax"]
+
+[node name="Player" type="Node3D"]
+script = ExtResource("1_oul6g")
+
+[node name="Aprentice" parent="." instance=ExtResource("2_rkbax")]

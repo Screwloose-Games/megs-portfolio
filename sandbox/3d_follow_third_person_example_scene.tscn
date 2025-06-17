@@ -1,6 +1,5 @@
 [gd_scene load_steps=16 format=3 uid="uid://bqpdakdd2iysa"]
 
-[ext_resource type="PackedScene" uid="uid://mskcwn1a1v6d" path="res://addons/phantom_camera/examples/example_scenes/3D/sub_scenes/playable_character_third_person_3d.tscn" id="1_05v3d"]
 [ext_resource type="Script" uid="uid://csjccrhj5wnx7" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd" id="2_avtdt"]
 [ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="3_3vjgi"]
 [ext_resource type="Script" uid="uid://b8hhnqsugykly" path="res://addons/phantom_camera/scripts/resources/camera_3d_resource.gd" id="4_y6m2b"]
@@ -72,9 +71,6 @@ near = 0.05
 far = 4000.0
 
 [node name="Root" type="Node3D"]
-
-[node name="PlayerCharacterBody3D" parent="." instance=ExtResource("1_05v3d")]
-unique_name_in_owner = true
 
 [node name="PlayerPhantomCamera3D" type="Node3D" parent="." node_paths=PackedStringArray("follow_target")]
 unique_name_in_owner = true
