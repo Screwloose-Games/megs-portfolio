@@ -23,6 +23,12 @@ PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_came
 
 enabled=PackedStringArray("res://addons/ai_assistant_hub/plugin.cfg", "res://addons/gamedev_assistant/plugin.cfg", "res://addons/phantom_camera/plugin.cfg")
 
+[layer_names]
+
+3d_physics/layer_1="Player"
+3d_physics/layer_2="Ground"
+3d_physics/layer_3="Walls"
+
 [physics]
 
 common/physics_interpolation=true

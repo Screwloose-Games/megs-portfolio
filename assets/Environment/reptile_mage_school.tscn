@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://lvpuyr67qb0w"]
+
+[ext_resource type="PackedScene" uid="uid://cvc5f2dr1kctf" path="res://assets/Environment/ReptileMageSchool_Blockout.gltf" id="1_puwm0"]
+
+[node name="ReptileMageSchool" instance=ExtResource("1_puwm0")]

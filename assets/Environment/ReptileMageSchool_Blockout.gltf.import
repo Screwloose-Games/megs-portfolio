@@ -32,6 +32,534 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Arch_Pillar_LP": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Floor_400x404": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Floor_LP": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Floor_LP2": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Floor_LP3": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Floor_LP4": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Floor_LP5": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Floor_LP6": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Floor_Octo": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:GrandArch_LP": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner10": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner11": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner12": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner13": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner14": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner15": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner16": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner2": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner3": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner4": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner5": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner6": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner7": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner8": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Corner9": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall10": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall11": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall12": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall13": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall14": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall15": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall16": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall17": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall18": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall2": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall3": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall4": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall5": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall6": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall7": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall8": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Molding_Wall9": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP10": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP11": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP12": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP13": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP16": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP2": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP3": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP4": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP5": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP6": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP7": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP8": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Pillar_LP9": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:StartingEntrance_LP": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP10": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP11": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP12": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP13": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP14": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP2": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP3": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP4": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP5": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP6": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP7": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP8": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Torch_LP9": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x200": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x201": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x203": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x204": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x205": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x206": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x207": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x208": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x209": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x210": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x211": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x212": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x213": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x214": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x500": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x501": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x502": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x503": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x504": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x505": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x506": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x507": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x511": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x512": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x513": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x516": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_400x517": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_Arch_LP": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_Corner_LP": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_Corner_LP2": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_Corner_LP3": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+},
+"PATH:Wall_Corner_LP4": {
+"generate/physics": true,
+"physics/layer": 2,
+"physics/mask": 0
+}
+}
+}
 gltf/naming_version=1
 gltf/embedded_image_handling=1

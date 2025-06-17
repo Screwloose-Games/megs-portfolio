@@ -22,11 +22,11 @@ jobs:
           files: '**.fbx'
       - name: Comment on PR if .fbx files found
         if: steps.fbx_check.outputs.any_changed == 'true'
-        uses: peter-evans/create-or-update-comment@v3
+        uses: thollander/actions-comment-pull-request@v3
         with:
-          issue-number: ${{ github.event.pull_request.number }}
-          comment-id: 'flag-fbx-files-comment'
-          body: |
+          comment-tag: flag-fbx-files-commen
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          message: |
             # :warning: `FBX` files detected in this PR. 
             Please ensure that these files are necessary and consider converting them to `GLTF` format if possible.
 
@@ -35,6 +35,7 @@ jobs:
             * [Exporting Unreal Engine Content to glTF](https://dev.epicgames.com/documentation/en-us/unreal-engine/exporting-unreal-engine-content-to-gltf)
             * [Export to GLTF from Substance Painter](https://community.adobe.com/t5/substance-3d-painter-discussions/how-to-export-from-adobe-substance-3d-painter-to-glb-files/td-p/14210721)
             * Changed FBX files: ${{ steps.fbx_check.outputs.all_changed_files }}
+
       - name: Fail the job if .fbx files are found
         if: steps.fbx_check.outputs.any_changed == 'true'
         run: |
